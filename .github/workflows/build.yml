@@ -1,0 +1,24 @@
+name: Build macOS app
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: macos-26
+    permissions:
+      contents: read
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Build for Apple Silicon
+        run: >-
+          xcodebuild
+          -project MacCare.xcodeproj
+          -scheme MacCare
+          -configuration Release
+          -destination 'platform=macOS,arch=arm64'
+          CODE_SIGNING_ALLOWED=NO
+          build

@@ -1,0 +1,20 @@
+# macOS metadata
+.DS_Store
+
+# Xcode and SwiftPM generated files
+.build/
+.swiftpm/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+MacCare.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Packaged release artifacts
+*.dmg
+*.pkg
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example

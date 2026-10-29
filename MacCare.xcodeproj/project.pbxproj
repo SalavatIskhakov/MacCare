@@ -1,0 +1,34 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		A10000000000000000000001 /* MacCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000002 /* MacCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCare.swift; sourceTree = "<group>"; };
+		A10000000000000000000020 /* MoleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoleService.swift; sourceTree = "<group>"; };
+		A10000000000000000000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000021 /* Mole runtime folder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources/Mole; sourceTree = "<group>"; };
+		A10000000000000000000003 /* Sources */ = {isa = PBXGroup; children = (A10000000000000000000002 /* MacCare.swift */, A10000000000000000000020 /* MoleService.swift */, A10000000000000000000018 /* Assets.xcassets */, A10000000000000000000024 /* Localizable.xcstrings */,); path = Sources/MacCare; sourceTree = "<group>"; };
+		A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000003 /* Sources */, A10000000000000000000021 /* Mole runtime folder */, A10000000000000000000005 /* Products */,); sourceTree = "<group>"; };
+		A10000000000000000000005 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000001 /* MacCare.app */,); name = Products; sourceTree = "<group>"; };
+		A10000000000000000000006 /* MacCare */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000010; buildPhases = (A10000000000000000000007, A10000000000000000000008, A10000000000000000000009,); buildRules = (); dependencies = (); name = MacCare; productName = MacCare; productReference = A10000000000000000000001; productType = "com.apple.product-type.application"; };
+		A10000000000000000000007 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000011 /* MacCare.swift in Sources */, A10000000000000000000022 /* MoleService.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000008 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000009 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000019 /* Assets.xcassets in Resources */, A10000000000000000000023 /* Mole runtime in Resources */, A10000000000000000000025 /* Localizable.xcstrings in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000012, A10000000000000000000013,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000011 /* MacCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002; };
+		A10000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mac Care"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.maccare.desktop; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A10000000000000000000013 = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mac Care"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.maccare.desktop; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; }; name = Release; };
+		A10000000000000000000014 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000015, A10000000000000000000016,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000015 = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; }; name = Debug; };
+		A10000000000000000000016 = {isa = XCBuildConfiguration; buildSettings = { MACOSX_DEPLOYMENT_TARGET = 13.0; }; name = Release; };
+		A10000000000000000000017 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2700; }; buildConfigurationList = A10000000000000000000014; compatibilityVersion = "Xcode 14.0"; developmentRegion = ru; hasScannedForEncodings = 0; knownRegions = (en, ru, Base,); mainGroup = A10000000000000000000004; productRefGroup = A10000000000000000000005; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000006,); };
+		A10000000000000000000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000018 /* Assets.xcassets */; };
+		A10000000000000000000022 /* MoleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* MoleService.swift */; };
+		A10000000000000000000023 /* Mole runtime in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* Mole runtime folder */; };
+		A10000000000000000000024 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+		A10000000000000000000025 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000024 /* Localizable.xcstrings */; };
+	};
+	rootObject = A10000000000000000000017;
+}
